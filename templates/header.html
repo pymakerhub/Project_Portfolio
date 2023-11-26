@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luis' Portfolio</title>
+    <!-- Manually include Bootstrap from CDN -->
+    {{ bootstrap.load_css() }}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+<!-- Navbar container -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light bg-opacity-75 fixed-top">
+    <div class="container">
+
+        <span class="fs-5 me-auto">Data-Driven Excellence</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+            <ul class="nav nav-pills ms-auto flex-lg-row flex-column align-items-end">
+                <li class="nav-item"><a href="{{ url_for('home') }}" class="nav-link" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="{{ url_for('home') }}#about_me" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="{{ url_for('home') }}#portfolio" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="{{ url_for('contact') }}" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

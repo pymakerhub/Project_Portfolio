@@ -1,0 +1,85 @@
+@media (max-width: 767px) {
+    /* Styles for screens smaller than 768 pixels */
+    h1.display-5 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    h2.display-5 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    p.mobile-style {
+        font-size: 14px;
+        margin-bottom: 10px; /* Adjust margin for smaller screens */
+        color: #164863;
+    }
+
+    /* Add more styles as needed */
+}
+
+
+
+#mainNav {
+    background-color: #164863;
+}
+
+#navbarResponsive a {
+    color: #DDF2FD;
+}
+
+/*#main {
+ /   background-color: #9BBEC8;
+    color: #164863;
+}
+
+/* Navbar links */
+.nav-pills .nav-link {
+    color: #164863; /* Set the default text color */
+    background-color: transparent; /* Set the default background color */
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Change the background color on hover */
+.nav-pills .nav-link:hover {
+    background-color: #164863; /* Set the background color for hover */
+    color: #fff; /* Set the text color for hover */
+}
+
+#hero_text {
+    color: 'black';
+
+}
+
+#main {
+    background-image: url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEFic3RyYWN0JTIwU2hhcGVzfGVufDB8fDB8fHww'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover; /* Ensures that the background image covers the entire container */
+    background-position: center; /* Centers the background image within the container */
+    height: 100vh; /* Adjust the height as needed */
+    color: #fff; /* Set text color to contrast with the background */
+    text-align: center; /* Center the text within the container */
+    padding: 100px; /* Add padding as needed */
+}
+
+#about_me {
+    background-color: #DDF2FD;
+    height: 100vh; /* Adjust the height as needed */
+    color: #164863; /* Set text color to contrast with the background */
+    text-align: center; /* Center the text within the container */
+    padding: 100px; /* Add padding as needed */
+}
+
+#project1 {
+    background-image: url('../static/assets/img/KPI3.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover; /* Ensures that the background image covers the entire container */
+    background-position: center; /* Centers the background image within the container */
+    height: 100vh; /* Adjust the height as needed */
+    color: #fff; /* Set text color to contrast with the background */
+    text-align: center; /* Center the text within the container */
+    padding: 100px; /* Add padding as needed */
+}
+
+.mobile-style {
+    color: #164863;
+    font-size: 20px;
+    font-weight: bold
+}
