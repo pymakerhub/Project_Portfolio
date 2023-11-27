@@ -14,9 +14,24 @@
         color: #164863;
     }
 
+    #portfolio{
+        height: auto; /* Set height to auto for smaller screens */
+        min-height: 125vh; /* Set a minimum height to cover the viewport */
+    }
+
     /* Add more styles as needed */
 }
 
+@media (min-width: 1572px) {
+    height: auto; /* Set height to auto for smaller screens */
+    min-height: 125vh; /* Set a minimum height to cover the viewport */
+}
+
+
+#portfolio,
+#contact {
+    height: 100vh;
+}
 
 
 #mainNav {
@@ -82,4 +97,20 @@
     color: #164863;
     font-size: 20px;
     font-weight: bold
+}
+
+a.contact_link {
+    color: #164863;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h4.contact_link {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#email {
+    color: #164863;
+    font-size: 25px;
 }
